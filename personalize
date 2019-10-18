@@ -1,8 +1,14 @@
 #!/bin/bash
 
-# Create Bash Functions & Alias file
-touch ~/.bash_func
-touch ~/.bash_aliases
+# Create Bash Functions file & Alias file
+if [ ! -e ~/.bash_func ]; then
+	touch ~/.bash_func
+fi
+
+if [ ! -e ~/.bash_aliases ]; then
+	touch ~/.bash_aliases
+fi
+
 echo -e "if [ -f ~/.bash_func ]; then
 	. ~/.bash_func
 fi
