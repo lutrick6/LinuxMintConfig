@@ -45,7 +45,7 @@ gsettings set org.cinnamon.theme name "Mint-Y-Dark-Orange";
 gsettings set org.cinnamon.desktop.interface gtk-theme "Mint-Y-Dark-Orange";
 gsettings set org.cinnamon.desktop.wm.preferences theme "Mint-Y-Dark-Orange";
 curl 'https://i.imgur.com/77ofjEU.jpg' --output ~/Pictures/wallpaper.jpg;
-gsettings set org.cinnamon.desktop.background picture-uri  "file:~/Pictures/wallpaper.jpg";
+gsettings set org.cinnamon.desktop.background picture-uri  "file:$HOME/Pictures/wallpaper.jpg";
 
 # Configure Python
 pip3 install pep8 autopep8
