@@ -54,7 +54,7 @@ curl 'https://i.imgur.com/77ofjEU.jpg' --output ~/Pictures/wallpaper.jpg;
 gsettings set org.cinnamon.desktop.background picture-uri  "file:$HOME/Pictures/wallpaper.jpg";
 
 # Configure Python
-pip3 install pep8 autopep8
+pip3 install pep8 autopep8 --user
 
 # Configure Atom
 apm install script intentions busy-signal linter-ui-default linter python-autopep8
