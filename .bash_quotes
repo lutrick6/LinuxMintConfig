@@ -1,0 +1,17 @@
+#!/bin/bash
+
+arr[0]="We cannot be more sensitive to pleasure without being more sensitive to pain."
+arr[1]="Life exists only at this very moment, and in this moment it is infinite and eternal, for the present moment is infinitely small; before we can measure it, it has gone, and yet it exists forever."
+arr[2]="There will always be suffering. But we must not suffer over the suffering."
+arr[3]="Every individual is a unique manifestation of the Whole, as every branch is a particular outreaching of the tree."
+arr[4]="The only way to make sense out of change is to plunge into it, move with it, and join the dance."
+arr[5]="But I’ll tell you what hermits realize. If you go off into a far, far forest and get very quiet, you’ll come to understand that you’re connected with everything."
+arr[6]="When you get free from certain fixed concepts of the way the world is, you find it is far more subtle, and far more miraculous, than you thought it was."
+arr[7]="Man suffers only because he takes seriously what the Gods made for fun."
+arr[8]="Muddy water is best cleared by leaving it alone."
+arr[9]="You are an aperture through which the universe is looking at and exploring itself."
+arr[10]="Words can be communicative only between those who share similar experiences."
+arr[11]="Technology is destructive only in the hands of people who do not realize that they are one and the same process as the universe."
+
+rand=$[ $RANDOM % 11 ]
+echo -e "\e[94m\t\"${arr[$rand]}\"\v\e[0m-Alan Watts"
