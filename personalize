@@ -13,7 +13,10 @@ echo -e "if [ -f ~/.bash_func ]; then
 	. ~/.bash_func
 fi
 
-export PATH=\$PATH:/snap/bin" >> ~/.bashrc
+export PATH=\$PATH:/snap/bin
+
+# Uncomment to enable quotes
+# . ~/.bash_quotes" >> ~/.bashrc
 
 # Functions for creating aliases and functions
 echo -e "
