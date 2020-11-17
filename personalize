@@ -1,16 +1,16 @@
 #!/bin/bash
 
 # Create Bash Functions file & Alias file
-if [ ! -e ~/.bash_func ]; then
-	touch ~/.bash_func
+if [ ! -e ~/.bash_functions ]; then
+	touch ~/.bash_functions
 fi
 
 if [ ! -e ~/.bash_aliases ]; then
 	touch ~/.bash_aliases
 fi
 
-echo -e "if [ -f ~/.bash_func ]; then
-	. ~/.bash_func
+echo -e "if [ -f ~/.bash_functions ]; then
+	. ~/.bash_functions
 fi
 
 export PATH=\$PATH:/snap/bin
